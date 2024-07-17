@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .weather-widget {
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: 90%;
+        max-width: 600px;
+        padding: 20px;
+        text-align: center;
+      }
+      .weather-widget h2 {
+        margin: 0 0 20px 0;
+        color: #007bff;
+      }
+      .forecast-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #e0e0e0;
+      }
+      .forecast-item:last-child {
+        border-bottom: none;
+      }
+      .forecast-item .day {
+        font-weight: bold;
+        font-size: 1.2em;
+        flex: 1;
+      }
+      .forecast-item .temperature {
+        font-size: 1.5em;
+        color: #333;
+        flex: 1;
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="weather-widget">
+      <h2>3-Day Weather Forecast</h2>
+      <div id="forecast-list" class="forecast-list">
+        <!-- Weather forecast will be populated here by JavaScript -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

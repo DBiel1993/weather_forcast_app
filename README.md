@@ -55,3 +55,8 @@ Benefits:
     •	User-Friendly: Simple input and clear output make it accessible for users.
 
     •	Reliable Data: Uses data from the NOAA National Weather Service, a trusted source for weather information.
+
+Here are the coordinates for Mount Elbert:
+
+Latitude: 39.1178
+Longitude: -106.4454
